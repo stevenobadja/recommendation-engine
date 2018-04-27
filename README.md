@@ -8,9 +8,10 @@ Collaborative filtering methods will only return movies thats is correlated to t
 
 Normally, performance is measured in a post A|B test against other engines (content based, popularity, trending, etc..). We will attempt to solve this in a different manner. We will first create a model that will predict how a user will rate a movie, then pair this model with the collaborative filtering to predict how the user will rate the movies being recommended to them.
 
-1. Create a model that can predict what rating a user will give to a movie on a different [Notebook](predict_rating_model.ipynb)
-2. Create a recommendation engine using collaborative filtering (Output #17 & #25)
+1. Create a model that can predict what rating a user will give to a movie this [Notebook](predict_rating_model.ipynb)
+2. Create a recommendation engine using collaborative filtering this [Notebook](rec_engine_collab.ipynb)(Output #17 & #25)
 3. Use model to predict how the user will rate the movies being recommended to them (Output #23, #28, #31 & #34)
+4. The final output that includes all of the controls can be found on this [Notebook](rec_engine_collab_part_2.ipynb)
 
 **Recommendation Engine Overview:**<br/>
 Using movies & ratings datasets we will create two recommendation engine to predict what movies we should watch. Both engines will use **collaborative filtering** as the preferred method:
